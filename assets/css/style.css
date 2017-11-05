@@ -3,7 +3,7 @@ body{
 	width: 960px;
 	align-content: center;
 	padding: 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 nav{
@@ -19,11 +19,9 @@ nav{
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
-	width: fit-content;
 	margin:0px 0px 0px 130px;
-	padding:10px;
+	padding: 35px 10px 10px 10px;
 	height: 96px;
-	line-height: 96px;
 	
 }
 
@@ -56,8 +54,7 @@ li a:hover {
 }
 
 
-div{
-	overflow:auto;
+div{overflow: hidden;
 	padding: 0px;
 	margin: 0px 0px 0px 10px;
 }
@@ -90,10 +87,10 @@ div{
 
 #connect{
 	float: right;
-	width:270px;
+	width:205px;
 	background-color: #ffffff;
 	text-align: center;
-	margin: 40px 100px 0px 0px;
+	margin: 40px 75px 0px 0px;
 	color: #4aaaa5;
 	padding: 5px;
 
@@ -261,4 +258,162 @@ form{
 	}
 
 
+@media screen and (max-width: 640px) {
+	body{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
 
+	nav{
+		width:100%;
+		overflow: hidden;
+		margin: 0px 0px 20px 0px;
+		padding: 0px 0px 0px 0px;
+
+	}
+
+	.logo{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 10px 0px 0px 0px;
+	}
+
+
+	ul{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
+	}
+
+	#about{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	.content {
+		width:97%;
+		background:url("") repeat 0 0;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 5px;
+			}
+
+	#connect{
+		width:100%;
+		margin: 10px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+
+	footer{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	#line{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	h4{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	div{
+		margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+	body{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+
+	nav{
+		width:100%;
+		overflow: hidden;
+		margin: 0px 0px 20px 0px;
+		padding: 0px 0px 0px 0px;
+
+	}
+
+	.logo{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 10px 0px 0px 0px;
+	}
+
+
+	ul{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		text-align: center;
+	}
+
+	#about{
+		width:100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	.content {
+		width:97%;
+		background:url("") repeat 0 0;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 5px;
+			}
+
+	#connect{
+		width:100%;
+		margin: 10px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+
+	footer{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	#line{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	h4{
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		}
+
+	div{
+		margin: 0px 0px 0px 0px;
+}
+
+
+/*@media screen and (max-width: 980px) {
+
+	#about{
+		width:348px;
+	}
+
+	.content {
+		width : 832px;
+	}
+
+	#connect{
+		width:225px;
+	}
+
+	
+}
+*/
